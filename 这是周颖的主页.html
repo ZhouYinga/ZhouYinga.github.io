@@ -1,0 +1,384 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>欢迎来到 周颖 主页</title>
+        <!-- ------------------------------------------------- -->
+        <link rel="stylesheet" href="base.css" />
+        <link rel="stylesheet" href="fullpage.min.css" />
+        <!-- 引入外部字体连接 -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- 引入animate -->
+        <link rel="stylesheet" href="animate.min.css" />
+        <link rel="stylesheet" href="style-1.css" />
+        <link rel="stylesheet" href="style-2.css" />
+        <link rel="stylesheet" href="style-3.css" />
+        <link rel="stylesheet" href="style-4.css" />
+        <link rel="stylesheet" href="style-5.css" />
+        <link rel="stylesheet" href="jaliswall.css" />
+        <!-- ------------------------------------------------- -->
+        <script src="jQuery.mini.js"></script>
+        <script src="fullpage.min.js"></script>
+        <script src="jaliswall.js"></script>
+        <script src="index.js"></script>
+        <script type="text/javascript">
+            window.onload = function(){
+                     setInterval("toggleSound()",100);
+                }
+        
+            function toggleSound() {
+                        var music = document.getElementById("vd");//获取ID  
+                            
+                        if (music.paused) { //判读是否播放  
+                            music.paused=false;
+                            music.play(); //没有就播放 
+                        }    
+                }
+        </script>        
+        <style>
+            /* 轮播圆点颜色 */
+            #fp-nav ul li a span {
+                background-color: #fff !important;
+            }
+            /* 左右滑块的样式 */
+            .fp-bottom ul {
+                width: 100%;
+                text-align: center;
+            }
+            /* 三屏的圆点颜色 */
+            .fp-bottom ul li a span {
+                background-color: rgb(255, 255, 255);
+            }
+            body {
+                background-image: linear-gradient(#48f1d5, #fff, #ffa4a4);
+            }
+        </style>
+    </head>
+
+    <body>
+        <audio src="南波万.mp3" autoplay="autoplay" id="vd" loop="loop" preload="auto"></audio>
+        <div id="dowebok">
+            <!-- <h3>第一屏</h3> -->
+            <div class="section sec1" id="section1">
+                <!-- 背景圆点 -->
+                <div class="sec1_circle1"></div>
+                <div class="sec1_circle2"></div>
+                <div class="sec1_circle3"></div>
+                <!-- 头部 -->
+                <header>
+                <nav>
+                    <ul>
+                        <li class="local_home">
+                            <a href="#page1">
+                                <span class="local_hd">Home</span>
+                                <span class="local_bd">主页</span>
+                            </a>
+                        </li>
+                        <li class="local_home">
+                            <a href="#page2">
+                                <span class="local_hd">Hobby</span>
+                                <span class="local_bd">兴趣爱好</span>
+                            </a>
+                        </li>
+                        <li class="local_home">
+                            <a href="#page3">
+                                <span class="local_hd">Photo</span>
+                                <span class="local_bd">照片集</span>
+                            </a>
+                        </li>
+                        <li class="local_home">
+                            <a href="#page4">
+                                <span class="local_hd">Memory</span>
+                                <span class="local_bd">难忘瞬间</span>
+                            </a>
+                        </li>
+                        <li class="local_home">
+                            <a href="#page5 ">
+                                <span class="local_hd">Video</span>
+                                <span class="local_bd">视频分享</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                </header>
+                <!-- 内容区域 -->
+                <main>
+                    <div class="main_left">
+                        <div class="myPhoto current">
+                            <a href="#">
+                                <img src="000.jpg" alt="" />
+								<h3>欢迎来到周颖的主页</h3>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p></p>
+                                <span>首页</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p></p>
+                                <span>电话</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p></p>
+                                <span>邮箱</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p></p>
+                                <span>QQ</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p></p>
+                                <span>更多</span>
+                            </a>
+                        </div>
+                    </div>
+					   <div class="main_right">
+                            <div class="content hidden" style="display: block">
+                                 <img src="0.jpg" alt="" / class="touxiang">
+                                 <p>逆风的地方才适合飞翔</p>
+                                 <p>要做就做南波万！</p>
+                      
+                        <div class="content hidden">
+                            <img src="me.jpg" alt="" >
+                            <p>我叫周颖</p>
+							<p>来自华东交通大学经济管理学院</p>
+                            <p>是21经统班级中的一员</p>
+                        </div>
+					    
+                        </div>
+
+                        <div class="content hidden">
+                            <img src="11.jpg" alt="" >
+                            <p>我的电话是19851515003</p>
+                        </div>
+
+                        <div class="content hidden">
+                            <img src="33.jpg" alt="" / class="touxiang">
+                            <p>我的电子邮箱是：1955199965@qq.com</p>
+                        </div>
+					    <div class="content hidden">
+                            <img src="0.jpg" alt="" / class="touxiang">
+                            <p>我的QQ号是：1955199965</p>
+                        </div>
+
+                        <div class="content hidden">
+                            <img src="01.jpg" alt="" / class="touxiang">
+                            <p>我最喜欢大家叫我圈圈，因为我的偶像叫源源，圆圆圈圈嘛哈哈</p>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <!-- <h3>第二屏</h3> -->
+            <div class="section sec2" id="section2">
+                <!-- 背景小圆点 -->
+                <div class="sec2_circle1"></div>
+                <div class="sec2_circle2"></div>
+                <div class="sec2_circle3"></div>
+                <!-- 主题内容 -->
+                <div class="sec2_main">
+                    <div class="sec2_main_head">
+                        <ul>
+                            <li class="current1">
+                                <a href="#">阅读</a>
+                            </li>
+                            <li><a href="#">听音乐</a></li>
+                            <li><a href="#">旅游</a></li>
+                            <li><a href="#">溜冰</a></li>
+							<li><a href="#">看电影</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec2_main_body">
+                        <div class="sec2_main_body_content hidden" style="display: block">
+                            <div class="sec2_main_body_content_left">
+                                <p></p>
+                                <p>阅读对我而言是一种独特的心灵体验，每当我打开一本悬疑小说，我被引入一个充满谜团和未知的世界。这种情节的张力和不确定性使我能够摆脱日常琐事，沉浸在一个引人入胜的故事中，享受一种独特的心灵冒险。</p>
+                                <p></p>
+                            </div>
+                            <div class="sec2_main_body_content_right">
+                                <img src="阅读.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec2_main_body_content hidden">
+                            <div class="sec2_main_body_content_left">
+                                <p>💘</p>
+                                <p>阅读时听音乐是最美妙不过的事情了！音乐是一种情感表达和文化体验的载体，王源的《骄傲》是我最喜欢的一首歌！</p>
+                                <p>💓</p>	
+                            </div>
+                            <div class="sec2_main_body_content_right">
+                                <img src="music.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec2_main_body_content hidden">
+                            <div class="sec2_main_body_content_left">
+                                <p>💘</p>
+                                <p>每次旅游都会见到不同的风土人情，遇到不同的人，是对自己心灵的巨大放松。从玉龙雪山到塔里木盆地，未来我将会走得更远。</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec2_main_body_content_right">
+                                <img src="旅.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec2_main_body_content hidden">
+                            <div class="sec2_main_body_content_left">
+                                <p>💘</p>
+                                <p>前段时间，我这个南方人第一次去溜冰，是一种全新而刺激的体验（也可能是因为很少见到那么大的冰场）。</p>
+                                <p>“”</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec2_main_body_content_right">
+                                <img src="溜冰2.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec2_main_body_content hidden">
+                            <div class="sec2_main_body_content_left">
+                                <p>💘</p>
+                                <p>每个人的人生从出生开始就已经注定，从什么地方来，往什么地方去，我们注定只能选择某一种生活，也注定只能与选择类似生活的人互相接触。我们需要找一个办法参与选择之外的人生，书籍和影视作品就是打开未知世界的钥匙。
+</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec2_main_body_content_right">
+                                <img src="星星.jpg" alt="" />
+                            </div>
+						</div>
+                    </div>
+                </div>
+            </div>
+            <!-- <h3>第三屏</h3> -->
+            <div class="section sec3" id="section3">
+                <div class="slide">
+                    <img src="22.jpg" alt="" />
+                </div>
+				<div class="slide">
+                    <img src="three.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="55.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="天坛.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="66.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="ice.png" alt="" />
+                </div>
+				 <div class="slide">
+                    <img src="bjpg.jpg" alt="" />
+                </div>
+				 <div class="slide">
+                    <img src="a.jpg" alt="" />
+                </div>
+            </div>
+            <!-- <h3>第四屏</h3> -->
+            <div class="section sec4" id="section4">
+                <!-- 背景小圆点 -->
+                <div class="sec4_circle1"></div>
+                <div class="sec4_circle2"></div>
+                <div class="sec4_circle3"></div>
+                <!-- 主题内容 -->
+                <div class="sec4_main">
+                    <div class="sec4_main_head">
+                        <ul>
+                            <li class="current1">
+                                <a href="#">华创杯</a>
+                            </li>
+                            <li><a href="#">2024天安门看升旗</a></li>
+                            <li><a href="#">好友小聚</a></li>
+                            <li><a href="#">彩虹</a></li>
+                            <li><a href="#">名侦探学院</a></li>
+                            <li><a href="#">我的小爱豆</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec4_main_body">
+                        <div class="sec4_main_body_content hidden" style="display: block">
+                            <div class="sec4_main_body_content_left">
+                                <p>💘</p>
+                                <p>第一次参加小组合作的比赛，从10月到12月，从最初的懵懵懂懂到最后胸有成竹，答辩的时候超级紧张，但是评委老师都超级温柔！最后获得了一等奖！大家都超厉害超认真！</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec4_main_body_content_right">
+                                <img src="华创.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec4_main_body_content hidden">
+                            <div class="sec4_main_body_content_left">
+                                <p>💘</p>
+                                <p>2024年1月1日，去了北京天安门看升国旗，五星红旗缓缓升起的时候，和周围的人一起唱国歌！祝我们的祖国繁荣昌盛，越来越好！</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec4_main_body_content_right">
+                                <img src="天安门.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec4_main_body_content hidden">
+                            <div class="sec4_main_body_content_left">
+                                <p>💘</p>
+                                <p>说来也奇怪 莫名就遇见了 莫名就玩到了一起 莫名的还有相同的爱好 莫名的一下就过了好几年</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec4_main_body_content_right">
+                                <img src="出游.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec4_main_body_content hidden">
+                            <div class="sec4_main_body_content_left">
+                                <p>💘</p>
+                                <p>2023年7月，暑假在家，一场暴雨后见到了绝美的彩虹，这是我第一次拍到这么清晰而且具有氛围感的彩虹！遇见彩虹，一定好运满满！</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec4_main_body_content_right">
+                                <img src="彩虹.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec4_main_body_content hidden">
+                            <div class="sec4_main_body_content_left">
+                                <p>💘</p>
+                                <p>大一上，我接触到了这个所谓的“不齐”男团，他们每个人都有自己独特的，吸引我的地方，是我的智性恋高峰！未来，我希望我也可以成为和他们一样，坚定初心，做我想做的，成为我想成为的大人！
+								<p>名侦探学院，要做就做南波万！</p></p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec4_main_body_content_right">
+                                <img src="名侦探学院.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec4_main_body_content hidden">
+                            <div class="sec4_main_body_content_left">
+                                <p>💘</p>
+                                <p>从初中开始，我就很喜欢王源，不仅仅是他的歌，他独特的共情能力，精彩的舞台爆发力，更是他的坚韧的精神和乐观的人生态度！2024年，王源要平安快乐，做你想做的事情！2025年，我一定要看一场王源的演唱会！</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec4_main_body_content_right">
+                                <img src="王源.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <h3>第五屏</h3> -->
+            <div class="section sec5" id="section5">
+                <video src="三分钟热度.mp4" loop controls></video>
+            </div>
+        </div>
+        <!-- ------------------------------------------------- -->
+        <!-- 官网提供的 axios 在线地址 -->
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <!-- 引入在线axios地址 -->
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="./js/vue.js"></script>
+    </body>
+</html>
